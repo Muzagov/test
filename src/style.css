@@ -1,0 +1,140 @@
+/*Material UI*/
+
+.MuiFormControl-root {
+  margin-left: 50px !important;
+  width: 400px !important;
+  margin-top: 15px !important;
+}
+
+.MuiInputLabel-animated {
+  font-size: 13px !important;
+}
+
+.MuiAccordion-root {
+  width: 300px;
+  margin: 5px 0 0 130px;
+  border: none !important;
+  box-shadow: 0 0 0 0 !important;
+}
+
+.MuiAccordion-root:before {
+  display: none;
+}
+
+.MuiAccordionSummary-root {
+  border-bottom: 1px solid lightgray !important;
+}
+
+.MuiAccordion-root.Mui-expanded {
+  margin-left: 130px !important;
+}
+
+.MuiAccordion-root.Mui-expanded:last-child {
+  margin-left: 130px !important;
+}
+
+.btn .MuiSvgIcon-root {
+  position: absolute;
+  top: 13px;
+  left: 75px;
+}
+
+/*App*/
+
+.App {
+  width: 500px;
+  margin: auto;
+  padding-top: 100px;
+}
+
+/*Modal Window*/
+
+.modalWindow {
+  width: 500px;
+  height: auto;
+  box-shadow: 0 0 5px 5px whitesmoke;
+  border-radius: 3px;
+  padding: 30px 0;
+  border-top: 5px solid #fdd170;
+  margin-bottom: 50px;
+}
+
+.form {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+.text {
+  margin-top: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+}
+
+.addFile {
+  border: none;
+}
+
+.btn {
+  width: 250px;
+  height: 50px;
+  background-color: #fdd170;
+  border: none;
+  border-radius: 50px;
+  margin: 20px 0 0 120px;
+  line-height: 50px;
+  outline: none;
+  position: relative;
+}
+
+/*Modal Window Two*/
+
+.modalWindowTwo {
+  width: 500px;
+  height: auto;
+  box-shadow: 0 0 5px 5px whitesmoke;
+  border-radius: 3px;
+  padding: 30px 0;
+  position: relative;
+}
+
+.one {
+  width: 70px;
+  height: 40px;
+  background-color: whitesmoke;
+  position: absolute;
+  top: 35px;
+  left: 30px;
+  text-align: center;
+  line-height: 40px;
+  font-family: "Roboto", sans-serif;
+}
+
+.two {
+  width: 70px;
+  height: 40px;
+  opacity: 0.6;
+  top: 95px;
+  left: 30px;
+  text-align: center;
+  line-height: 40px;
+  position: absolute;
+  font-size: 20px;
+}
+
+.three {
+  width: 70px;
+  height: 40px;
+  opacity: 0.6;
+  top: 150px;
+  left: 30px;
+  text-align: center;
+  line-height: 40px;
+  position: absolute;
+  font-size: 20px;
+}
